@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="353" Width="532">
+    <Grid Height="280" VerticalAlignment="Bottom" Margin="24,0,15,22">
+        <TextBlock HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Calculate orbits for:" FontSize="14"/>
+        <ComboBox HorizontalAlignment="Left" Height="20" Margin="125,0,0,0" VerticalAlignment="Top" Width="45">
+            <ComboBoxItem Content="Earth" HorizontalAlignment="Left" Width="45"/>
+            <ComboBoxItem Content="Kirbin" HorizontalAlignment="Left" Width="45"/>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Height="35" Margin="0,25,0,0" TextWrapping="Wrap" Text="First you much reach minimum orbit height" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="125,25,0,0" TextWrapping="Wrap" Text="Minimum" VerticalAlignment="Top" Height="35" Width="110" FontSize="22">
+            <TextBlock.Background>
+                <SolidColorBrush Color="#FFF4F7FC"/>
+            </TextBlock.Background>
+        </TextBlock>
+    </Grid>
+</Window>
